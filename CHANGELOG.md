@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [Unreleased]
+### Fixed
+ - Fix crash when parsing appinfo V42 ('2A') files containing records of unusual size
+
 ## [1.15.1] - 2026-11-21
 ### Fixed
  - Fix crash caused by appmanifest files with an empty or invalid `LastUpdated` value
